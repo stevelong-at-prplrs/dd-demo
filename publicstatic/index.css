@@ -1,0 +1,29 @@
+body {
+	background-color: #ffb3b3;
+	height: 97vh;
+}
+
+h2 {
+	text-align: center;
+	width: fit-content;
+	margin: 1rem auto;
+}
+
+.drag-container {
+	height: 100vh;
+	width: 100%;
+}
+
+.drag-wrapper {
+	background-color: #c142ff;
+	border: solid;
+	border-radius: .5rem;
+	margin: none; /* any margin will throw off calculcations which don't currently take it into account */
+	min-height: 100px ;
+	position: absolute;
+	width: 20rem;
+}
+
+div > p {
+	padding: 2rem 1rem;
+}
